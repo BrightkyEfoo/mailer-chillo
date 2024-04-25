@@ -2,8 +2,8 @@ on:
   workflow_dispatch:
 env:
   NODE_VERSION: '14.x'
-  FOLDER: /opt/applications/cs-community/ms-cs-community
-  IMAGE: ms-cs-community
+  FOLDER: /opt/applications/mailer/ms
+  IMAGE: ms
   IMAGE_VERSION: latest
 permissions:
   contents: read
